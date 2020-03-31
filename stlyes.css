@@ -4,12 +4,21 @@
   }
   #header-nav {
     color: #909090;
+    font-size: 150%;
+  }
+  #icon {
+    width: 50px;
+    height: 50px;
   }
   hr {
     display: none;
   }
   ul {
     margin: 0;
+  }
+  header{
+    min-height: 100px;
+    font-size: 150%;
   }
 
   /* .home-div {
@@ -45,6 +54,9 @@
   #omsons {
     padding: 50px 15% 90px;
     height:1400px;
+  }
+  #firstPhoto, #secondPhoto {
+    display: none;
   }
 }
 
