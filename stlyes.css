@@ -1,0 +1,226 @@
+@media only screen and (max-width: 990px) {
+  #header-name {
+    display: none;
+  }
+  #header-nav {
+    color: #909090;
+  }
+  hr {
+    display: none;
+  }
+  ul {
+    margin: 0;
+  }
+
+  /* .home-div {
+    width: 100%;
+  } */
+  /*
+  .abt-div {
+    width: 80%;
+    display: block;
+
+  } */
+
+  #firstDiv .abt-para {
+    padding-bottom: 0;
+    width: 100%;
+  }
+  #secondDiv .abt-para {
+    padding-top: 0;
+    width: 100%;
+  }
+  #FirstDiv .abt-para {
+    padding-bottom: 0;
+    width: 100%;
+  }
+  #SecondDiv .abt-para {
+    padding-top: 0;
+    width: 100%;
+  }
+  #borosil {
+    height:2300px;
+    padding: 50px 15% 90px;
+  }
+  #omsons {
+    padding: 50px 15% 90px;
+    height:1400px;
+  }
+}
+
+@media only screen and (min-width: 990px) {
+  #header-nav {
+    display: none;
+  }
+  .abt-div {
+    width: 40%;
+    height: 70%;
+    /* display: inline-block; */
+    position: absolute;
+  }
+  #firstDiv {
+    height:1100px;
+  }
+  #secondDiv {
+    height:1100px;
+    margin-left:45%
+  }
+  #FirstDiv {
+    height:600px;
+  }
+  #SecondDiv {
+    height:600px;
+    margin-left:45%
+  }
+  #borosil {
+    height:1350px;
+  }
+  #omsons {
+    height:850px;
+  }
+  .abt-para {
+    padding:30px 50px;;
+  }
+}
+
+
+
+
+header {
+  background-color: black;
+  text-decoration-color: white;
+  color: white;
+  padding: 0 10%;
+  }
+
+.sticky {
+  display: block;
+  position: fixed;
+  top:0;
+  width: 100%;
+}
+
+footer {
+  padding: 25px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+a{
+  color: inherit;
+}
+
+hr {
+  color: white;
+  border: 1px solid white;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+ul {
+  font-size: 150%;
+}
+
+.link-item {
+  color: white;
+}
+.link-item :hover {
+  color: black;
+}
+
+.home-div {
+      background: url(./images/home.jpg) no-repeat center center fixed;
+            margin: 0;
+          background-size: 100%;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+
+.home-heading {
+  font-size: 3.5rem;
+  color: white;
+  position: relative;
+  padding-top: 100px;
+  padding-left: 250px;
+  padding-right: 400px;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.abt-container{
+  background-color: #ffdb9c;
+  position: relative;
+  height: 600px;
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+  width: 100%;
+  padding: 90px;
+}
+
+.abt-div {
+
+  /* margin-top: 100px;
+  margin-bottom: 15%; */
+  display: inline-block;
+  background-color: black;
+  color: white;
+
+  padding: 0;
+  margin: auto;
+}
+
+.brand-div {
+  width:35%;
+  height:320px;
+  padding: 0;
+  position: absolute;
+}
+.abt-heading {
+  position: relative;
+  margin-top: 15%;
+  margin-bottom: 10%;
+  text-align: center;
+  width: 100%;
+  color: #ffdb9c;
+}
+.abt-para {
+  width: 100%;
+  /* padding: 0 10%;  purana*/
+  padding:30px 50px;
+  /* padding-right: 50px;
+  padding-right: 50px; */
+  /* font-size:150%; */
+}
+
+
+img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.comp-heading {
+  width: 100%;
+  color: black;
+  height: 100px;
+  text-align: center;
+}
+
+
+#borosil, #omsons {
+  padding-top:50px;
+}
+#firstDiv, #secondDiv, #FirstDiv, #SecondDiv {
+  font-size:150%;
+}
